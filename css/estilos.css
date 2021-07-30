@@ -57,12 +57,10 @@ video {
 	color: #000;
 }
 .titulo	{
-	font-size: 40px;
+	font-size: 50px;
 	font-family:'Rock Salt', cursive;
 	text-align: center;
-}
-.titulo:hover{
-	transform: rotateX(70deg)
+	margin: 60px;
 }
 .modelos {
 	color: darkgreen;
@@ -87,9 +85,6 @@ video {
 	border: 2px solid#000;
 	padding: 5px;
 	margin-top: 30px;
-}
-.pie:hover {
-	transform: skewX(20deg)
 }
 .leyendo {
 	width: 300px;

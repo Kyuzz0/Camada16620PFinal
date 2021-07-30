@@ -122,3 +122,8 @@ label {
 	font-family:'Rock Salt', cursive;
 	line-height: 18px;
 }
+textarea {
+  	resize: none;
+  	height: 100px;
+  	width: 450px;
+}

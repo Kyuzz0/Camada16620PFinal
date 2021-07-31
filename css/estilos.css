@@ -4,48 +4,25 @@ body {
 	background-size: cover;
  	background-repeat: no-repeat;
 }
-img	{
-	width: 50px;
+.imgicon {
+	width: 150px;
 	transition: all 500ms ease-in-out;
+	margin: 40px;
 }
-img:hover {
+.imgicon:hover {
 	transform: scale(1.2);
+}
+.logicon {
+	width: 100px;
+	transition: all 500ms ease-in-out;
 }
 td img {
 	width: 150px;
 }
-video {
+.videohis {
 	width: 420px;
 	margin: auto;
 	display: block;
-}
-.ladod {
-	display: inline-block;
-	margin-left: 90%;
-}
-.mo {
-	height: 25px;
-	display: inline-block;
-	margin-left: 90%;
-	margin-top: 20px;
-	padding: 0.5em 1em;
-	flex-direction: row;
-	justify-content: flex-end;
-	color: red;
-	background: black;
-	background: linear-gradient(to right, black, white);
-	transition: all 500ms ease-in-out;
-}
-.mo:hover{
-	transform: scale(1.2);
-}
-.barraInicio {
-	height: 50px;
-	display: flex;
-	flex-wrap: wrap;
-	flex-direction: row;
-	justify-content: space-between;
-	list-style-type: none;
 }
 .ingresar {
 	height: 25px;
@@ -67,15 +44,7 @@ video {
 	font-size: 20px;
 	font-family:'Rock Salt', cursive;
 	text-align: center;
-}
-.iconos {
-	text-align: center;
-}
-.tabla {
-	align-items: center;
-	margin: auto;
-	background: linear-gradient(white, grey);
-	padding: 35px;
+	align-content: center;
 }
 .pie {
 	font-size: 16px;
@@ -102,6 +71,10 @@ video {
 	flex-direction: column;
 	justify-content: space-around;
 }
+.historialet {
+	font-family: Arial;
+	font-size: 18px;
+}	
 ul li {
 	color: red;
 	font-size: 15px;

@@ -48,7 +48,7 @@ td img {
 	font-size: 50px;
 	font-family:'Rock Salt', cursive;
 	text-align: center;
-	margin: 60px;
+	margin: 30px;
 }
 .modelos {
 	color: darkgreen;
@@ -62,10 +62,9 @@ td img {
 	font-family:'Rock Salt', cursive;
 	margin: auto;
 	justify-content: space-between;
-	margin-top: 30px;
+	margin-top: 10px;
 	width: 50%;
 	height: 100px;
-	color: whitesmoke;
 }
 .leyendoreglas {
 	width: 400px;
@@ -73,6 +72,11 @@ td img {
 	display: block;
 }
 .leyendohistoria {
+	width: 500px;
+	margin: auto;
+	display: block;
+}
+.leyendocategoria {
 	width: 500px;
 	margin: auto;
 	display: block;
@@ -92,15 +96,14 @@ td img {
 	font-family: Arial;
 	font-size: 18px;
 }	
-ul li {
-	color: red;
-	font-size: 15px;
-	font-family:'Rock Salt', cursive;
+.lista {
+	color: #252850;
+	font-size: 16px;
+	font-family:'Arial', cursive;
 }
-ol li {
-	color: darkgreen;
-	text-align: left;
-	list-style-position: outside;
+.lisnav {
+	font-size: 16px;
+	font-family:'Rock Salt', cursive;
 }
 p {
 	font-size: 16px;

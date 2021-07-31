@@ -1,4 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap");
+@media screen and (max-width: 480px) {
+  body {
+    font-size: 80%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  body {
+    font-size: 120%;
+  }
+}
+
 body {
   background-image: url(../media/hoja.jpg);
   background-size: cover;

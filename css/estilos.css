@@ -24,6 +24,11 @@ td img {
 	margin: auto;
 	display: block;
 }
+.videosor {
+	width: 820px;
+	margin: auto;
+	display: block;
+}
 .ingresar {
 	height: 25px;
 	display: flex;

@@ -1,122 +1,131 @@
-@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
-@media (min-width: 1025px) and (max-width: 1280px);
-@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape);
-@media (min-width: 481px) and (max-width: 767px);
+@import url("https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap");
 body {
-	background-image: url(../media/hoja.jpg);
-	background-size: cover;
- 	background-repeat: no-repeat;
+  background-image: url(../media/hoja.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
-.imgicon {
-	width: 150px;
-	transition: all 500ms ease-in-out;
-	margin: 40px;
+
+#header .logicon {
+  width: 100px;
+  transition: all 500ms ease-in-out;
 }
-.imgicon:hover {
-	transform: scale(1.2);
+
+#header .lisnav {
+  font-size: 16px;
+  font-family: 'Rock Salt', cursive;
 }
-.logicon {
-	width: 100px;
-	transition: all 500ms ease-in-out;
+
+#header .ingresar {
+  height: 25px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
 }
-td img {
-	width: 150px;
+
+#header .titulo {
+  font-size: 50px;
+  font-family: 'Rock Salt', cursive;
+  text-align: center;
+  margin: 30px;
 }
-.videohis {
-	width: 420px;
-	margin: auto;
-	display: block;
+
+#header .videosor {
+  width: 820px;
+  margin: auto;
+  display: block;
 }
-.videosor {
-	width: 820px;
-	margin: auto;
-	display: block;
+
+#header .sorti {
+  text-align: center;
 }
-.sorti {
-	text-align: center;
+
+#header .chill {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
-.ingresar {
-	height: 25px;
-	display: flex;
-	flex-direction: row;
-	justify-content: flex-end;
+
+#header .chill .paraFormulario {
+  color: #000;
 }
-#paraFormulario {
-	color: #000;
+
+#header .chill .paraFormulario .formu {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
-.titulo	{
-	font-size: 50px;
-	font-family:'Rock Salt', cursive;
-	text-align: center;
-	margin: 30px;
+
+#header .chill .paraFormulario textarea {
+  resize: none;
+  height: 100px;
+  width: 450px;
 }
-.modelos {
-	color: darkgreen;
-	font-size: 20px;
-	font-family:'Rock Salt', cursive;
-	text-align: center;
-	align-content: center;
+
+#header label {
+  font-size: 16px;
+  font-family: 'Rock Salt', cursive;
+  line-height: 18px;
 }
-.pie {
-	font-size: 16px;
-	font-family:'Rock Salt', cursive;
-	margin: auto;
-	justify-content: space-between;
-	margin-top: 10px;
-	width: 50%;
-	height: 100px;
+
+#mid .modelos {
+  color: darkgreen;
+  font-size: 20px;
+  font-family: 'Rock Salt', cursive;
+  text-align: center;
+  align-content: center;
 }
-.leyendoreglas {
-	width: 400px;
-	margin: auto;
-	display: block;
+
+#mid .modelos .imgicon {
+  width: 150px;
+  transition: all 500ms ease-in-out;
+  margin: 40px;
 }
-.leyendohistoria {
-	width: 500px;
-	margin: auto;
-	display: block;
+
+#mid .modelos .imgicon .imgicon:hover {
+  transform: scale(1.2);
 }
-.leyendocategoria {
-	width: 500px;
-	margin: auto;
-	display: block;
+
+#mid .modelos .lista {
+  color: #252850;
+  font-size: 16px;
+  font-family: 'Arial', cursive;
 }
-.chill {
-	display: flex;
-	flex-direction: row-reverse;
-	justify-content: space-around;
-	flex-wrap: wrap;
+
+#mid .modelos td img {
+  width: 150px;
 }
-.formu {
-	display: flex;
-	flex-direction: column;
-	justify-content: space-around;
+
+#mid p {
+  font-size: 16px;
+  font-family: 'Arial', cursive;
+  line-height: 18px;
 }
-.historialet {
-	font-family: Arial;
-	font-size: 18px;
-}	
-.lista {
-	color: #252850;
-	font-size: 16px;
-	font-family:'Arial', cursive;
+
+#mid .leyendoreglas {
+  width: 400px;
+  margin: auto;
+  display: block;
 }
-.lisnav {
-	font-size: 16px;
-	font-family:'Rock Salt', cursive;
+
+#mid .leyendohistoria {
+  width: 500px;
+  margin: auto;
+  display: block;
 }
-p {
-	font-size: 16px;
-	font-family:'Rock Salt', cursive;
-	line-height: 18px;
+
+#mid .leyendocategoria {
+  width: 500px;
+  margin: auto;
+  display: block;
 }
-label {
-	font-size: 16px;
-	font-family:'Rock Salt', cursive;
-	line-height: 18px;
-}
-textarea {
-  	resize: none;
-  	height: 100px;
-  	width: 450px;
+
+#footer .pie {
+  font-size: 16px;
+  font-family: 'Rock Salt', cursive;
+  margin: auto;
+  justify-content: space-between;
+  margin-top: 10px;
+  width: 50%;
+  height: 100px;
 }

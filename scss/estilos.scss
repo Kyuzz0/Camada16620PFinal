@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+body {
+	background-image: url(../media/hoja.jpg);
+	background-size: cover;
+ 	background-repeat: no-repeat;
+}
+#header{
+	.logicon {
+		width: 100px;
+		transition: all 500ms ease-in-out;
+	}
+	.lisnav {
+		font-size: 16px;
+		font-family:'Rock Salt', cursive;
+	}
+	.ingresar {
+		height: 25px;
+		display: flex;
+		flex-direction: row;
+		justify-content: flex-end;
+	}	
+	.titulo	{
+		font-size: 50px;
+		font-family:'Rock Salt', cursive;
+		text-align: center;
+		margin: 30px;
+	}
+	.videosor {
+		width: 820px;
+		margin: auto;
+		display: block;
+	}
+	.sorti {
+		text-align: center;
+	}
+	.chill {
+		display: flex;
+		flex-direction: row-reverse;
+		justify-content: space-around;
+		flex-wrap: wrap;
+		.paraFormulario{
+			color: #000;
+			.formu {
+				display: flex;
+				flex-direction: column;
+				justify-content: space-around;
+			}
+			textarea {
+  				resize: none;
+  				height: 100px;
+  				width: 450px;
+			}
+		}
+	}
+	label {
+		font-size: 16px;
+		font-family:'Rock Salt', cursive;
+		line-height: 18px;
+	}
+}
+#mid{
+	.modelos {
+		color: darkgreen;
+		font-size: 20px;
+		font-family:'Rock Salt', cursive;
+		text-align: center;
+		align-content: center;
+		.imgicon {
+			width: 150px;
+			transition: all 500ms ease-in-out;
+			margin: 40px;
+			.imgicon:hover {
+				transform: scale(1.2);
+			}
+		}
+		.lista {
+			color: #252850;
+			font-size: 16px;
+			font-family:'Arial', cursive;
+		}
+		td img {
+			width: 150px;
+		}
+	}	
+	p {
+		font-size: 16px;
+		font-family:'Arial', cursive;
+		line-height: 18px;	
+	}
+	.leyendoreglas {
+		width: 400px;
+		margin: auto;
+		display: block;
+	}
+	.leyendohistoria {
+		width: 500px;
+		margin: auto;
+		display: block;
+	}
+	.leyendocategoria {
+		width: 500px;
+		margin: auto;
+		display: block;
+	}
+}
+#footer{
+	.pie {
+		font-size: 16px;
+		font-family:'Rock Salt', cursive;
+		margin: auto;
+		justify-content: space-between;
+		margin-top: 10px;
+		width: 50%;
+		height: 100px;
+	}
+}
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
